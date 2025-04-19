@@ -38,11 +38,6 @@ Welcome to my GitHub! I'm a BTech student majoring in **Cyber Security** at GITA
 
 ---
 
-## 😄 Pronouns:
-He/Him
-
----
-
 ## ⚡ Fun Facts:
 - There's no fun in facts.. they are boring..
 - I'm aiming to build an AI-powered background task manager soon!
