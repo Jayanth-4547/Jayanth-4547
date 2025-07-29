@@ -27,7 +27,7 @@
 ```mermaid
 mindmap
   root((Skills))
-    ((Languages))
+    ((Langs))
       Python
       Java
       C
@@ -39,14 +39,14 @@ mindmap
       JavaScript
       TypeScript
       PowerShell
-    ((Frameworks & Libraries))
+    ((Frameworks))
       Flutter
       Flask
       TensorFlow
       JSON Handling
       NumPy
       Matplotlib
-    ((Cybersecurity Tools))
+    ((CS Tools))
       Nmap
       Metasploit
       Burp Suite
@@ -59,12 +59,12 @@ mindmap
       Aircrack-ng
       Autopsy
       FTK Imager
-    ((Automation & Packaging))
+    ((Automation))
       Selenium
       PyInstaller
       NSIS
       Docker
-    ((Dev Tools & Platforms))
+    ((Dev Tools))
       VS Code
       Android Studio
       Git
@@ -75,16 +75,12 @@ mindmap
       VirtualBox
       Figma
       Fusion 360
-    ((Operating Systems))
+    ((OS))
       Linux
       Windows
-    ((Cloud & Backend))
+    ((Backend & Cloud))
       Firebase
       Supabase
-    ((In Progress / Exploring))
-      DevSecOps
-      Secure Automation
-      AI-based solutions
 ```
 
 ## 🏆 GitHub Trophies
