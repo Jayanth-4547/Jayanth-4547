@@ -35,14 +35,14 @@ mindmap
       HTML
       CSS
       Bash
-      Dart (basic)
+      Dart
       JavaScript
       TypeScript
       PowerShell
     ((Frameworks & Libraries))
       Flutter
       Flask
-      TensorFlow (intro)
+      TensorFlow
       JSON Handling
       NumPy
       Matplotlib
@@ -76,8 +76,8 @@ mindmap
       Figma
       Fusion 360
     ((Operating Systems))
-      Linux (Ubuntu, Kali)
-      Windows (10/11)
+      Linux
+      Windows
     ((Cloud & Backend))
       Firebase
       Supabase
