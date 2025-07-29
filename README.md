@@ -1,51 +1,101 @@
-# 👋 Hi there, I'm Jayanth Tatineni (@Jayanth-4547)
+### Hello there ~ <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="24px" alt="hi">
+# Hi, I'm Jayanth Tatineni
+### Developer | Cybersecurity Engineer | Exploring AI
 
-Welcome to my GitHub! I'm a BTech student majoring in **Cyber Security** at GITAM University, passionate about technology, cybersecurity, and building cool stuff that makes a difference.
+<details>
+<summary>⚡Stats and Skills</summary>
+<br />
 
----
+<!--
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jayanth-4547&hide=asp,cmake,c%2B%2B,objective-c&langs_count=6&border_radius=16&layout=compact&size_weight=0.5&count_weight=0.5&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jayanth-4547&hide=asp,cmake,c%2B%2B,objective-c&langs_count=6&border_radius=16&layout=compact&theme=default&size_weight=0.5&count_weight=0.5#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+-->
 
-## 👀 I’m Interested In:
-- Cybersecurity (CTFs, exploit development, forensics, and vulnerability analysis)
-- AI & Machine Learning (especially in NLP and summarization)
-- Full-stack Web & App Development
-- Game Development and Creative Storytelling
-- Building automation tools and system utilities
+ [![Jayanth's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+  [![Jayanth's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+![](https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false)<br/>
 
----
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Jayanth-4547&no-frame=false&no-bg=false&margin-w=4)
 
-## 🌱 Currently Learning:
-- Certified Ethical Hacking (CEH)
-- Secure coding practices
-- Android development (login/signup + maps)
-- Cloud Security fundamentals
-- LLVM and low-level programming
-- Reverse engineering APKs
+### ⚡ Tech Snapshot
 
----
+```mermaid
+mindmap
+  root((Skills))
+    ((Languages))
+      Python
+      Java
+      C
+      SQL
+      HTML
+      CSS
+      Bash
+      Dart (basic)
+      JavaScript
+      TypeScript
+      PowerShell
+    ((Frameworks & Libraries))
+      Flutter
+      Flask
+      TensorFlow (intro)
+      JSON Handling
+      NumPy
+      Matplotlib
+    ((Cybersecurity Tools))
+      Nmap
+      Metasploit
+      Burp Suite
+      Wireshark
+      LinPEAS
+      Hydra
+      John the Ripper
+      Netcat
+      Nessus
+      Aircrack-ng
+      Autopsy
+      FTK Imager
+    ((Automation & Packaging))
+      Selenium
+      PyInstaller
+      NSIS
+      Docker
+    ((Dev Tools & Platforms))
+      VS Code
+      Android Studio
+      Git
+      GitHub
+      Firebase
+      Supabase
+      VMware
+      VirtualBox
+      Figma
+      Fusion 360
+    ((Operating Systems))
+      Linux (Ubuntu, Kali)
+      Windows (10/11)
+    ((Cloud & Backend))
+      Firebase
+      Supabase
+    ((In Progress / Exploring))
+      DevSecOps
+      Secure Automation
+      AI-based solutions
+```
 
-## 💞️ Looking to Collaborate On:
-- Cybersecurity tools & projects (Windows-focused, AV/EDR-friendly tools)
-- AI/NLP applications (text summarizers, assistive tools)
-- Automation scripts for productivity or hacking tasks
-- Website/App ideas that solve real-world problems
+</details>
 
----
+<!--
+<p align="center">
+  <img align="left" src ="https://github-readme-stats.vercel.app/api/pin/?username=Jayanth-4547&repo=DFire">
+  <img align="right" src ="https://github-readme-stats.vercel.app/api/pin/?username=Jayanth-4547&repo=eSim">
+</p>
+-->
 
-## 📫 How to Reach Me:
-- 📧 Email: [jayanthtatineni@gmail.com](mailto:jayanthtatineni@gmail.com)
-- 💬 LinkedIn: [jayanth-tatineni](https://www.linkedin.com/in/jayanth-tatineni/) 
-- 🌐 Portfolio / Personal Website: (in progress)
+### 🤝 Connect with Me  
+[Portfolio](https://jayanth-tatineni.netlify.app) · [LinkedIn](https://www.linkedin.com/in/jayanth-tatineni/) · **jayanthtatineni@gmail.com**
 
----
 
-## ⚡ Fun Facts:
-- There's no fun in facts.. they are boring..
-- I'm aiming to build an AI-powered background task manager soon!
-- I love mixing tech with creativity – whether it's writing, editing, or building tools
-- I’m all about practicality – solutions should be **simple, effective, and efficient**
 
----
 
-> “Keep it simple. Get it done. Grow every day.”
-
-Thanks for stopping by! ⭐  
+Let’s build something valuable.
