@@ -13,7 +13,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=dark" width="420"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false&border_radius=16&theme=dark" width="445"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false&border_radius=16&theme=dark" width="420"/>
 </div>
 
 <!--
