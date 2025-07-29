@@ -11,11 +11,18 @@
  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jayanth-4547&hide=asp,cmake,c%2B%2B,objective-c&langs_count=6&border_radius=16&layout=compact&theme=default&size_weight=0.5&count_weight=0.5#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 -->
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=dark" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false" height="180"/>
+</div>
+
+<!--
  [![Jayanth's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
   [![Jayanth's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false)<br/>
+-->
 
-### ⚡ Tech Snapshot
+### 🛠️ Tech Snapshot
 
 ```mermaid
 mindmap
