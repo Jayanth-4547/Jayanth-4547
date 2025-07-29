@@ -15,9 +15,6 @@
   [![Jayanth's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false)<br/>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Jayanth-4547&no-frame=false&no-bg=false&margin-w=4)
-
 ### ⚡ Tech Snapshot
 
 ```mermaid
@@ -82,6 +79,10 @@ mindmap
       Secure Automation
       AI-based solutions
 ```
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Jayanth-4547&no-frame=false&no-bg=false&margin-w=4)
+
 
 </details>
 
