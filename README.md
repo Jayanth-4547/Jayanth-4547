@@ -13,7 +13,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Jayanth-4547&show_icons=true&border_radius=16&theme=dark" width="420" style="height: 200px;" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false&border_radius=16&theme=dark" width="420"  style="height: 200px;" />
+<!--   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jayanth-4547&hide_border=false&border_radius=16&theme=dark" width="420"  style="height: 200px;" /> -->
 </div>
 
 <!--
@@ -83,9 +83,10 @@ mindmap
       Supabase
 ```
 
+<!--
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Jayanth-4547&theme=darkhub&margin-w=4)
-
+-->
 
 </details>
 
