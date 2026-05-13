@@ -7,4 +7,6 @@
 
 Let’s build something valuable.
 
-![Terminal](terminal.svg)
+<p align="center">
+  <img src="./terminal.svg" width="800">
+</p>
