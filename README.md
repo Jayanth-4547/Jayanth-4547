@@ -7,4 +7,4 @@
 
 Let’s build something valuable.
 
-<img src="./test.svg">
+![Terminal](terminal.svg)
