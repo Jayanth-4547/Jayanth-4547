@@ -10,3 +10,8 @@ Let’s build something valuable.
 <p align="center">
   <img src="./terminal.svg" width="800">
 </p>
+
+
+<p align="center">
+  <img src="./v2.svg" width="800">
+</p>
