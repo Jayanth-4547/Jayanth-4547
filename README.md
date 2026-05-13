@@ -7,6 +7,12 @@
 
 Let’s build something valuable.
 
+
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+|---|---|---|---|---|---|---|---|---|---|
+| <img src="./frames/ezgif-frame-001.jpg" width="800"> | <img src="./frames/ezgif-frame-002.jpg" width="800"> | <img src="./frames/ezgif-frame-003.jpg" width="800"> | <img src="./frames/ezgif-frame-004.jpg" width="800"> | <img src="./frames/ezgif-frame-005.jpg" width="800"> | <img src="./frames/ezgif-frame-006.jpg" width="800"> | <img src="./frames/ezgif-frame-007.jpg" width="800"> | <img src="./frames/ezgif-frame-008.jpg" width="800"> | <img src="./frames/ezgif-frame-009.jpg" width="800"> | <img src="./frames/ezgif-frame-010.jpg" width="800"> |
+
+
 <p align="center">
   <img src="./terminal.svg" width="800">
 </p>
