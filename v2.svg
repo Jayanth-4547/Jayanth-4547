@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200">
+  <defs>
+    <style>
+      /* Base Sleek Theme */
+      :root {
+        --bg: #0d1117;
+        --card-bg: #161b22;
+        --border: #30363d;
+        --text-main: #c9d1d9;
+        --text-muted: #8b949e;
+        --glow: #58a6ff;
+        --accent: #bc8cff;
+      }
+
+      * { box-sizing: border-box; }
+      
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        background: var(--bg);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        color: var(--text-main);
+        overflow: hidden;
+        position: relative;
+      }
+
+      /* --- THE ANIMATIONS --- */
+      @keyframes fadeUp {
+        0% { opacity: 0; transform: translateY(40px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes drawLine {
+        0% { width: 0; opacity: 0; }
+        100% { width: 100%; opacity: 1; }
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+
+      @keyframes pulseGlow {
+        0%, 100% { box-shadow: 0 0 15px rgba(88, 166, 255, 0.2); }
+        50% { box-shadow: 0 0 30px rgba(88, 166, 255, 0.6); }
+      }
+
+      /* --- LAYOUT CLASSES --- */
+      .section { padding: 80px 40px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      
+      .hero-title { font-size: 48px; font-weight: 800; margin-bottom: 10px; background: linear-gradient(to right, var(--glow), var(--accent)); -webkit-background-clip: text; color: transparent; }
+      .hero-sub { font-size: 20px; color: var(--text-muted); max-width: 500px; line-height: 1.5; }
+      
+      .card-grid { display: flex; gap: 20px; margin-top: 40px; width: 100%; justify-content: center; }
+      .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 30px; width: 300px; text-align: left; }
+      
+      .pill { background: rgba(88, 166, 255, 0.1); color: var(--glow); padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; border: 1px solid rgba(88, 166, 255, 0.3); margin-bottom: 20px; }
+
+      /* --- THE TIME DELAY TRICKS --- */
+      /* Hero loads instantly */
+      .anim-hero-1 { opacity: 0; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards; }
+      .anim-hero-2 { opacity: 0; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards; }
+      
+      /* Line draws after hero finishes */
+      .anim-line { height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); margin: 40px 0; opacity: 0; animation: drawLine 1.5s ease-in-out 1s forwards; }
+
+      /* Section 2 (The scroll illusion): Waits 1.5 to 2.5 seconds */
+      .anim-sec2-title { opacity: 0; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 1.5s forwards; }
+      .anim-card-1 { opacity: 0; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 1.8s forwards; }
+      .anim-card-2 { opacity: 0; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 2.1s forwards; }
+
+      /* Ambient motion - always running so it looks alive when they get there */
+      .ambient-float { animation: float 6s ease-in-out infinite; }
+      .ambient-glow { animation: pulseGlow 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="wrapper">
+      
+      <!-- HERO SECTION (Loads immediately) -->
+      <div class="section" style="height: 500px; justify-content: center;">
+        <div class="pill anim-hero-1">v2.0 Architecture</div>
+        <h1 class="hero-title anim-hero-1">Engineering the Impossible.</h1>
+        <p class="hero-sub anim-hero-2">Bypassing platform constraints to build dynamic, layout-driven interactive profiles directly in the standard markdown environment.</p>
+        
+        <!-- Animated "Button" -->
+        <div class="anim-hero-2 ambient-float" style="margin-top: 40px;">
+          <div class="ambient-glow" style="background: var(--glow); color: #000; padding: 12px 30px; border-radius: 8px; font-weight: bold; font-size: 16px;">
+            Initialize Sequence
+          </div>
+        </div>
+      </div>
+
+      <div class="anim-line"></div>
+
+      <!-- FEATURES SECTION (Delayed to mimic scroll) -->
+      <div class="section">
+        <h2 class="anim-sec2-title" style="font-size: 32px; margin-bottom: 10px;">Core Capabilities</h2>
+        <p class="anim-sec2-title" style="color: var(--text-muted);">What runs under the hood of this engine.</p>
+
+        <div class="card-grid">
+          <div class="card anim-card-1 ambient-float" style="animation-delay: 1.8s, 0s;"> <!-- Delay intro, start ambient -->
+            <div style="font-size: 24px; margin-bottom: 15px;">⚡️</div>
+            <h3 style="margin: 0 0 10px 0; color: var(--text-main);">Hardware Accelerated</h3>
+            <p style="margin: 0; color: var(--text-muted); font-size: 14px; line-height: 1.6;">Utilizing pure CSS keyframes within the SVG namespace ensures buttery smooth 60fps animations without Javascript overhead.</p>
+          </div>
+
+          <div class="card anim-card-2 ambient-float" style="animation-delay: 2.1s, 2s;"> <!-- Offset ambient float -->
+            <div style="font-size: 24px; margin-bottom: 15px;">🛡️</div>
+            <h3 style="margin: 0 0 10px 0; color: var(--text-main);">Sandbox Resilient</h3>
+            <p style="margin: 0; color: var(--text-muted); font-size: 14px; line-height: 1.6;">Designed to execute flawlessly even when stripped of active document primitives by strict image proxy pipelines.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </foreignObject>
+</svg>
