@@ -1,36 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800">
-  <rect width="800" height="800" fill="#0f172a" />
-  <text x="400" y="30" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">Active Document Primitive Stress Test</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+  <rect width="800" height="400" fill="#0f172a" />
+  
+  <foreignObject x="20" y="20" width="760" height="360">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:sans-serif; color:white;">
 
-  <foreignObject x="20" y="50" width="760" height="730">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:sans-serif; color:white; font-size:12px;">
-      
-      <div style="border:1px solid #22c55e; margin-bottom:15px; padding:10px; background:rgba(34,197,94,0.1);">
-        <strong>1. Data URI Iframe (Internal Active Document)</strong>
-        <p style="color:#86efac; font-size:10px;">Goal: Bypasses external loading blocks by encoding the HTML into a string.</p>
-        <iframe src="data:text/html;base64,PGJvZHkgc3R5bGU9ImJhY2tncm91bmQ6IzIyYzU1ZTtjb2xvcjp3aGl0ZTtmb250LWZhbWlseTpzYW5zLXNlcmlmO3BhZGRpbmc6MTBweDsiPjxoND5EQVRBIFVSSSBTVUNDRVNTPC9oND48cD5UaGlzIGlzIGEgZnVsbCBpZnJhbWUgcmVuZGVyZWQgZnJvbSBhIGJhc2U2NCBzdHJpbmcuPC9wPjwvYm9keT4="                 style="width:100%; height:100px; border:none; margin-top:5px;"></iframe>
-      </div>
-
-      <div style="border:1px solid #3b82f6; margin-bottom:15px; padding:10px; background:rgba(59,130,246,0.1);">
-        <strong>2. The &lt;object&gt; Tag (Standard)</strong>
-        <p style="color:#93c5fd; font-size:10px;">Goal: Tests if browser treats 'data' attribute differently than 'src'.</p>
-        <object data="https://example.com" width="100%" height="100">
-          <div style="background:#ef4444; padding:10px;">&lt;object&gt; Fallback: Blocked or Not Supported</div>
+      <!-- TEST A: Object + Data URI -->
+      <div style="border:1px solid #c084fc; margin-bottom:20px; padding:10px; background:rgba(192,132,252,0.1);">
+        <strong>Test A: &lt;object&gt; + Data URI</strong>
+        <p style="font-size:12px; color:#d8b4fe;">Goal: Does object render internal base64 active documents?</p>
+        
+        <!-- Base64 decodes to a purple div saying "HELLO OBJECT" -->
+        <object data="data:text/html;base64,PGRpdiBzdHlsZT0iYmFja2dyb3VuZDpwdXJwbGU7Y29sb3I6d2hpdGU7cGFkZGluZzoyMHB4O2ZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7Ij48aDE+SEVMTE8gT0JKRUNUPC9oMT48L2Rpdj4=" type="text/html" width="100%" height="100">
+          <div style="background:#ef4444; padding:10px;">Fallback: Object Data URI Blocked</div>
         </object>
       </div>
 
-      <div style="border:1px solid #eab308; margin-bottom:15px; padding:10px; background:rgba(234,179,8,0.1);">
-        <strong>3. The &lt;embed&gt; Tag (Legacy)</strong>
-        <p style="color:#fde047; font-size:10px;">Goal: Tests plugin-style loading context.</p>
-        <embed src="https://example.com" width="100%" height="100" style="background:white;" />
-      </div>
-
-      <div style="border:1px solid #ec4899; padding:10px; background:rgba(236,72,153,0.1);">
-        <strong>4. Pure XHTML (Control)</strong>
-        <p style="color:#f9a8d4; font-size:10px;">Goal: Confirms the foreignObject itself is still functional.</p>
-        <div style="background:white; color:black; padding:10px; border-radius:4px;">
-          Rendering Local XHTML: <span style="color:#ec4899; font-weight:bold;">ACTIVE</span>
-        </div>
+      <!-- TEST B: Embed + Data URI -->
+      <div style="border:1px solid #2dd4bf; padding:10px; background:rgba(45,212,191,0.1);">
+        <strong>Test B: &lt;embed&gt; + Data URI</strong>
+        <p style="font-size:12px; color:#5eead4;">Goal: Does the blank white space accept internal base64 content?</p>
+        
+        <!-- Base64 decodes to a teal div saying "HELLO EMBED" -->
+        <embed src="data:text/html;base64,PGRpdiBzdHlsZT0iYmFja2dyb3VuZDp0ZWFsO2NvbG9yOndoaXRlO3BhZGRpbmc6MjBweDtmb250LWZhbWlseTpzYW5zLXNlcmlmOyI+PGgxPkhFTExPIEVNQkVEPC9oMT48L2Rpdj4=" type="text/html" width="100%" height="100" />
       </div>
 
     </div>
