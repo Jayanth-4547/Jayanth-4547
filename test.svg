@@ -1,29 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
-  <rect width="800" height="400" fill="#0f172a" />
+  <defs>
+    <style>
+      /* 1. THE CHAMELEON: Adapts to the user's GitHub theme automatically */
+      :root {
+        --bg: #f8fafc;
+        --text: #0f172a;
+        --accent: #3b82f6; /* Blue for Light Mode */
+        --window: #ffffff;
+        --border: #e2e8f0;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0d1117; /* GitHub Dark BG */
+          --text: #10b981; /* Hacker Green for Dark Mode */
+          --accent: #10b981;
+          --window: #161b22;
+          --border: #30363d;
+        }
+      }
+
+      /* Base styling */
+      .bg { fill: var(--bg); }
+      .window { fill: var(--window); stroke: var(--border); stroke-width: 2; rx: 10; }
+      .text { fill: var(--text); font-family: 'Courier New', Courier, monospace; font-size: 16px; }
+      .title { font-weight: bold; font-size: 20px; }
+      .grid { stroke: var(--border); stroke-width: 1; }
+
+      /* 2. THE TIME MACHINE: Infinite CSS Animations */
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor { animation: blink 1s step-end infinite; fill: var(--accent); }
+
+      /* 3. THE INTERACTIVE LOOPHOLE: CSS Hover Triggers */
+      /* Hides the secret message by default */
+      .secret-data { opacity: 0; transition: opacity 0.3s ease; }
+      /* Reveals the secret message when hovering over the button */
+      .btn:hover + .secret-data { opacity: 1; }
+      .btn { cursor: crosshair; }
+    </style>
+    
+    <!-- Background Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" class="grid"/>
+    </pattern>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- The Terminal Window -->
+  <rect x="50" y="50" width="700" height="300" class="window" />
   
-  <foreignObject x="20" y="20" width="760" height="360">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:sans-serif; color:white;">
+  <!-- Window Controls (Red, Yellow, Green dots) -->
+  <circle cx="80" cy="75" r="6" fill="#ff5f56" />
+  <circle cx="100" cy="75" r="6" fill="#ffbd2e" />
+  <circle cx="120" cy="75" r="6" fill="#27c93f" />
+  <line x1="50" y1="100" x2="750" y2="100" class="grid" />
 
-      <!-- TEST A: Object + Data URI -->
-      <div style="border:1px solid #c084fc; margin-bottom:20px; padding:10px; background:rgba(192,132,252,0.1);">
-        <strong>Test A: &lt;object&gt; + Data URI</strong>
-        <p style="font-size:12px; color:#d8b4fe;">Goal: Does object render internal base64 active documents?</p>
-        
-        <!-- Base64 decodes to a purple div saying "HELLO OBJECT" -->
-        <object data="data:text/html;base64,PGRpdiBzdHlsZT0iYmFja2dyb3VuZDpwdXJwbGU7Y29sb3I6d2hpdGU7cGFkZGluZzoyMHB4O2ZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7Ij48aDE+SEVMTE8gT0JKRUNUPC9oMT48L2Rpdj4=" type="text/html" width="100%" height="100">
-          <div style="background:#ef4444; padding:10px;">Fallback: Object Data URI Blocked</div>
-        </object>
-      </div>
+  <!-- Terminal Output -->
+  <text x="80" y="140" class="text title">guest@github:~$ <tspan fill="var(--accent)">./sandbox_bypass.sh</tspan></text>
+  
+  <text x="80" y="190" class="text">System Status: <tspan fill="var(--accent)">ONLINE</tspan></text>
+  <text x="80" y="220" class="text">Current Mission: Weaponizing SVG quirks.</text>
+  
+  <!-- Interactive Element -->
+  <g transform="translate(80, 260)">
+    <!-- The "Button" (The Trigger) -->
+    <rect x="0" y="-18" width="160" height="30" fill="var(--border)" rx="4" class="btn" />
+    <text x="15" y="2" class="text" fill="var(--bg)" style="pointer-events: none;">[ DECRYPT DATA ]</text>
+    
+    <!-- The "Popup" (The Hidden Data) -->
+    <g class="secret-data">
+      <rect x="180" y="-20" width="450" height="35" fill="var(--accent)" rx="4" />
+      <text x="195" y="3" font-family="monospace" font-size="16px" fill="var(--bg)" font-weight="bold">
+        SUCCESS: Interactive UI loaded in static tag!
+      </text>
+    </g>
+  </g>
 
-      <!-- TEST B: Embed + Data URI -->
-      <div style="border:1px solid #2dd4bf; padding:10px; background:rgba(45,212,191,0.1);">
-        <strong>Test B: &lt;embed&gt; + Data URI</strong>
-        <p style="font-size:12px; color:#5eead4;">Goal: Does the blank white space accept internal base64 content?</p>
-        
-        <!-- Base64 decodes to a teal div saying "HELLO EMBED" -->
-        <embed src="data:text/html;base64,PGRpdiBzdHlsZT0iYmFja2dyb3VuZDp0ZWFsO2NvbG9yOndoaXRlO3BhZGRpbmc6MjBweDtmb250LWZhbWlseTpzYW5zLXNlcmlmOyI+PGgxPkhFTExPIEVNQkVEPC9oMT48L2Rpdj4=" type="text/html" width="100%" height="100" />
-      </div>
-
-    </div>
-  </foreignObject>
+  <!-- The Blinking Cursor -->
+  <rect x="80" y="310" width="10" height="20" class="cursor" />
 </svg>
