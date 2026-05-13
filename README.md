@@ -6,3 +6,5 @@
 [Portfolio](https://jayanth-tatineni.netlify.app) · [LinkedIn](https://www.linkedin.com/in/jayanth-tatineni/) · **jayanthtatineni@gmail.com**
 
 Let’s build something valuable.
+
+<img src="./test.svg">
