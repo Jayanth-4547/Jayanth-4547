@@ -20,25 +20,26 @@ Let’s build something valuable.
 </p>
 
 
-<p align="center">
+<!-- <p align="center">
   <img src="./v2.svg" width="800">
-</p>
+</p> -->
 
-
-<div style="height: 500px; width: 100%; overflow-y: scroll; border: 1px solid #30363d; border-radius: 8px; background: #0d1117;">
+<!--
+<div style="height: 500px; width: 100%; overflow-y: scroll; border: 1px solid #30363d; border-radius: 8px; background: #0d1117;">  -->
   <!-- Frame 1 -->
-  <img src="./frames/ezgif-frame-001.jpg" width="100%" style="display: block; margin: 0; padding: 0;">
+  <!--<img src="./frames/ezgif-frame-001.jpg" width="100%" style="display: block; margin: 0; padding: 0;">  -->
   
   <!-- Frame 2 -->
-  <img src="./frames/ezgif-frame-002.jpg" width="100%" loading="lazy" style="display: block; margin: 0; padding: 0;">
+  <!--<img src="./frames/ezgif-frame-002.jpg" width="100%" loading="lazy" style="display: block; margin: 0; padding: 0;">  -->
   
   <!-- Frame 3 -->
-  <img src="./frames/ezgif-frame-003.jpg" width="100%" loading="lazy" style="display: block; margin: 0; padding: 0;">
+ <!-- <img src="./frames/ezgif-frame-003.jpg" width="100%" loading="lazy" style="display: block; margin: 0; padding: 0;">  -->
   
   <!-- Add the rest of your frames here -->
-</div>
+<!--</div>  -->
 
 
+ 
 <p align="center" style="margin: 0; padding: 0; line-height: 0;">
   <!-- <img src="./frames/ezgif-frame-001.jpg" width="100%" style="display: block; margin: 0; padding: 0;">
   <img src="./frames/ezgif-frame-002.jpg" width="100%" loading="lazy" style="display: block; margin: 0; padding: 0;">
